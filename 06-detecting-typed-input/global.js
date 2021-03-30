@@ -1,5 +1,5 @@
 // Your JavaScript goes here.
-window.onload = function(){
+window.addEventListener('load', function(){
 
     var enterYourName = document.getElementById("full_name");
   
@@ -10,4 +10,4 @@ window.onload = function(){
       greetings.innerHTML = ("Greetings and salutations, " + enterYourName.value + "!");
     });
   
-  }; 
+  }); 

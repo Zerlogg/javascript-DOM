@@ -1,5 +1,5 @@
 // Your JavaScript goes here.
-window.onload = function() {
+window.addEventListener('load', function(){
 
     var toggle = document.getElementById('toggle_button');
   
@@ -18,4 +18,4 @@ window.onload = function() {
   
     });
   
-  };
+  });

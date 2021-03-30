@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function(){
 
     //Get the DOM element to be clicked
     var clickIt = document.getElementById("button");
@@ -15,4 +15,4 @@ window.onload = function() {
     
     });
     
-    }; 
+    }); 

@@ -1,5 +1,5 @@
 // Your JavaScript goes here.
-window.onload = function() {
+window.addEventListener('load', function(){
 
     var clickIt = document.getElementById("button");
   
@@ -16,4 +16,4 @@ window.onload = function() {
           }
         }
       });
-  }; 
+  }); 
